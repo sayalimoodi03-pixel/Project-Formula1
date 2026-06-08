@@ -288,4 +288,4 @@ if st.button("⚡ PREDICT PODIUM FINISH"):
     with col_a:
         st.metric("🏆 Podium Probability",    f"{round(prob[1]*100, 1)}%")
     with col_b:
-        st.metric("❌ No Podium Probability", f"{round(prob[0]*100, 1)}%")cp Notebook/model.pkl model.pkl
+        st.metric("❌ No Podium Probability", f"{round(prob[0]*100, 1)}%")
